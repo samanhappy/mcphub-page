@@ -1,5 +1,5 @@
 "use client";
-import { ChevronsDown, Github, Menu } from "lucide-react";
+import { ChevronsDown, Github, Menu, Twitter } from "lucide-react";
 import React from "react";
 import {
   Sheet,
@@ -127,9 +127,9 @@ export const Navbar = () => {
       <NavigationMenu className="hidden lg:block mx-auto">
         <NavigationMenuList>
           <NavigationMenuItem>
-            <NavigationMenuTrigger className="bg-card text-base">
+            {/* <NavigationMenuTrigger className="bg-card text-base">
               Features
-            </NavigationMenuTrigger>
+            </NavigationMenuTrigger> */}
             <NavigationMenuContent>
               <div className="grid w-[600px] grid-cols-2 gap-5 p-4">
                 <Image
@@ -172,6 +172,21 @@ export const Navbar = () => {
 
       <div className="hidden lg:flex">
         <ToggleTheme />
+
+        <Button
+          asChild
+          size="sm"
+          variant="ghost"
+          aria-label="View on Twitter"
+        >
+          <Link
+            aria-label="View on Twitter"
+            href="https://x.com/sunmeng72135695"
+            target="_blank"
+          >
+            <Twitter className="size-5" />
+          </Link>
+        </Button>
 
         <Button asChild size="sm" variant="ghost" aria-label="View on GitHub">
           <Link
