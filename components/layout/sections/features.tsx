@@ -10,40 +10,40 @@ interface FeaturesProps {
 
 const featureList: FeaturesProps[] = [
   {
-    icon: "TabletSmartphone",
-    title: "Mobile Friendly",
+    icon: "LayoutDashboard",
+    title: "Intuitive Dashboard UI",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, consectetur.",
+      "Monitor server status and manage servers dynamically via a user-friendly web interface.",
   },
   {
-    icon: "BadgeCheck",
-    title: "Social Proof",
+    icon: "Network",
+    title: "Centralized Management",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Natus consectetur, odio ea accusamus aperiam.",
+      "Oversee multiple MCP servers from one convenient hub. Simplify your workflow with a single control point.",
   },
   {
-    icon: "Goal",
-    title: "Targeted Content",
+    icon: "Webhook",
+    title: "Broad Protocol Support",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. odio ea accusamus aperiam.",
+      "Works seamlessly with both stdio and SSE MCP protocols, ensuring compatibility with your existing setup.",
   },
   {
-    icon: "PictureInPicture",
-    title: "Strong Visuals",
+    icon: "ServerCog",
+    title: "Flexible Server Management",
     description:
-      "Lorem elit. A odio velit cum aliquam. Natus consectetur dolores, odio ea accusamus aperiam.",
+      "Add, remove, or reconfigure MCP servers without restarting the hub. Dynamic management at your fingertips.",
   },
   {
-    icon: "MousePointerClick",
-    title: "Clear CTA",
+    icon: "Layers",
+    title: "Single SSE Endpoint",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing. odio ea accusamus consectetur.",
+      "Connect all your applications to one unified endpoint, simplifying your architecture and reducing complexity.",
   },
   {
-    icon: "Newspaper",
-    title: "Clear Headline",
+    icon: "MonitorCheck",
+    title: "Real-time Monitoring",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur.",
+      "Keep an eye on the status of all MCP servers with instant status updates and health checks.",
   },
 ];
 
@@ -55,13 +55,11 @@ export const FeaturesSection = () => {
       </h2>
 
       <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-        What Makes Us Different
+        Why Choose MCPHub
       </h2>
 
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
-        fugiat, odit similique quasi sint reiciendis quidem iure veritatis optio
-        facere tenetur.
+        MCPHub simplifies your MCP server management with powerful features designed for efficiency and ease of use.
       </h3>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">

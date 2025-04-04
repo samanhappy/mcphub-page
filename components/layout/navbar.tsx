@@ -35,16 +35,16 @@ interface FeatureProps {
 
 const routeList: RouteProps[] = [
   {
-    href: "#testimonials",
-    label: "Testimonials",
+    href: "#features",
+    label: "Features",
   },
   {
-    href: "#team",
-    label: "Team",
+    href: "#quickstart",
+    label: "Quick Start",
   },
   {
-    href: "#contact",
-    label: "Contact",
+    href: "#development",
+    label: "Development",
   },
   {
     href: "#faq",
@@ -54,18 +54,16 @@ const routeList: RouteProps[] = [
 
 const featureList: FeatureProps[] = [
   {
-    title: "Showcase Your Value ",
-    description: "Highlight how your product solves user problems.",
+    title: "Centralized Management",
+    description: "Oversee multiple MCP servers from one convenient hub.",
   },
   {
-    title: "Build Trust",
-    description:
-      "Leverages social proof elements to establish trust and credibility.",
+    title: "Broad Protocol Support",
+    description: "Works seamlessly with both stdio and SSE MCP protocols.",
   },
   {
-    title: "Capture Leads",
-    description:
-      "Make your lead capture form visually appealing and strategically.",
+    title: "Flexible Server Management",
+    description: "Add, remove, or reconfigure MCP servers without restarting the hub.",
   },
 ];
 
@@ -178,7 +176,7 @@ export const Navbar = () => {
         <Button asChild size="sm" variant="ghost" aria-label="View on GitHub">
           <Link
             aria-label="View on GitHub"
-            href="https://github.com/nobruf/shadcn-landing-page.git"
+            href="https://github.com/samanhappy/mcphub"
             target="_blank"
           >
             <Github className="size-5" />

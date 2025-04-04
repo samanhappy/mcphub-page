@@ -10,28 +10,28 @@ interface BenefitsProps {
 
 const benefitList: BenefitsProps[] = [
   {
-    icon: "Blocks",
-    title: "Build Brand Trust",
+    icon: "Workflow",
+    title: "Simplified Workflow",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Reduce complexity by managing all your MCP servers through a single interface, saving time and reducing operational overhead.",
   },
   {
     icon: "LineChart",
-    title: "More Leads",
+    title: "Improved Performance",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, natus consectetur.",
+      "Monitor and optimize performance across all your MCP servers from one central dashboard.",
   },
   {
-    icon: "Wallet",
-    title: "Higher Conversions",
+    icon: "Settings2",
+    title: "Easy Configuration",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur. A odio velit cum aliquam",
+      "Configure and manage MCP servers with minimal effort. Add new servers without restarting the hub.",
   },
   {
-    icon: "Sparkle",
-    title: "Test Marketing Ideas",
+    icon: "ArrowRightLeft",
+    title: "Seamless Integration",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Connect your host applications to a single endpoint. Works with Claude Desktop, Cursor, Cherry Studio and more.",
   },
 ];
 
@@ -43,12 +43,10 @@ export const BenefitsSection = () => {
           <h2 className="text-lg text-primary mb-2 tracking-wider">Benefits</h2>
 
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Your Shortcut to Success
+            Streamline Your MCP Server Management
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
-            ducimus reprehenderit architecto rerum similique facere odit
-            deleniti necessitatibus quo quae.
+            MCPHub simplifies how you interact with multiple MCP servers, allowing you to focus on creating amazing AI applications instead of managing infrastructure.
           </p>
         </div>
 

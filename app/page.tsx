@@ -12,29 +12,29 @@ import { TeamSection } from "@/components/layout/sections/team";
 import { TestimonialSection } from "@/components/layout/sections/testimonial";
 
 export const metadata = {
-  title: "MCPHub",
-  description: "Free Shadcn landing page for developers",
+  title: "MCPHub - One Endpoint, Infinite MCP Servers",
+  description: "A unified hub server that consolidates multiple MCP servers into a single SSE endpoint",
   openGraph: {
     type: "website",
-    url: "https://github.com/nobruf/shadcn-landing-page.git",
-    title: "MCPHub",
-    description: "Free Shadcn landing page for developers",
+    url: "https://github.com/samanhappy/mcphub",
+    title: "MCPHub - One Endpoint, Infinite MCP Servers",
+    description: "A unified hub server that consolidates multiple MCP servers into a single SSE endpoint",
     images: [
       {
-        url: "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1723499276/og-images/shadcn-vue.jpg",
+        url: "https://github.com/samanhappy/mcphub/raw/main/assets/dashboard.png",
         width: 1200,
         height: 630,
-        alt: "MCPHub",
+        alt: "MCPHub Dashboard",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    site: "https://github.com/nobruf/shadcn-landing-page.git",
-    title: "MCPHub",
-    description: "Free Shadcn landing page for developers",
+    site: "https://github.com/samanhappy/mcphub",
+    title: "MCPHub - One Endpoint, Infinite MCP Servers",
+    description: "A unified hub server that consolidates multiple MCP servers into a single SSE endpoint",
     images: [
-      "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1723499276/og-images/shadcn-vue.jpg",
+      "https://github.com/samanhappy/mcphub/raw/main/assets/dashboard.png",
     ],
   },
 };
@@ -43,17 +43,17 @@ export default function Home() {
   return (
     <>
       <HeroSection />
-      <SponsorsSection />
+      {/* <SponsorsSection /> */}
       <BenefitsSection />
       <FeaturesSection />
-      <ServicesSection />
-      <TestimonialSection />
-      <TeamSection />
-      <CommunitySection />
-      <PricingSection />
-      <ContactSection />
+      {/* <ServicesSection /> */}
+      {/* <TestimonialSection /> */}
+      {/* <TeamSection /> */}
+      {/* <CommunitySection /> */}
+      {/* <PricingSection /> */}
+      {/* <ContactSection /> */}
       <FAQSection />
-      <FooterSection />
+      {/* <FooterSection /> */}
     </>
   );
 }
