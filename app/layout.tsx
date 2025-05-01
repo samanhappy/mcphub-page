@@ -7,8 +7,8 @@ import { ThemeProvider } from "@/components/layout/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "MCPHub - One Endpoint, Infinite MCP Servers",
-  description: "A unified hub server that consolidates multiple MCP servers into a single SSE endpoint",
+  title: "MCPHub - Your Ultimate MCP Server Hub",
+  description: "A unified hub server that aggregates multiple MCP servers into separate Streamable HTTP (SSE) endpoints for different scenarios",
 };
 
 export default function RootLayout({

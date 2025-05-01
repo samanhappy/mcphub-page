@@ -12,12 +12,12 @@ import { TeamSection } from "@/components/layout/sections/team";
 import { TestimonialSection } from "@/components/layout/sections/testimonial";
 
 export const metadata = {
-  title: "MCPHub - One Endpoint, Infinite MCP Servers",
+  title: "MCPHub - Your Ultimate MCP Server Hub",
   description: "A unified hub server that consolidates multiple MCP servers into a single SSE endpoint",
   openGraph: {
     type: "website",
     url: "https://github.com/samanhappy/mcphub",
-    title: "MCPHub - One Endpoint, Infinite MCP Servers",
+    title: "MCPHub - Your Ultimate MCP Server Hub",
     description: "A unified hub server that consolidates multiple MCP servers into a single SSE endpoint",
     images: [
       {
@@ -31,7 +31,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     site: "https://github.com/samanhappy/mcphub",
-    title: "MCPHub - One Endpoint, Infinite MCP Servers",
+    title: "MCPHub - Your Ultimate MCP Server Hub",
     description: "A unified hub server that consolidates multiple MCP servers into a single SSE endpoint",
     images: [
       "https://github.com/samanhappy/mcphub/raw/main/assets/dashboard.png",

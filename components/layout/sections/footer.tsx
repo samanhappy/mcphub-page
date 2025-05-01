@@ -13,7 +13,7 @@ export const FooterSection = () => {
 
               <h3 className="text-2xl">MCPHub</h3>
             </Link>
-            <p className="mt-2 text-muted-foreground">One Endpoint, Infinite MCP Servers</p>
+            <p className="mt-2 text-muted-foreground">Your Ultimate MCP Server Hub</p>
           </div>
 
           <div className="flex flex-col gap-2">
